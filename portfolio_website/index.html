@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sourabh Chaugule — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#0A192F" />
+</head>
+<body>
+
+<!-- Particles canvas -->
+<canvas id="particles"></canvas>
+
+<header class="site-header">
+  <div class="brand">
+    <a href="index.html" class="logo"><span class="mono">Sourabh</span> <span class="accent">Chaugule</span></a>
+    <div class="role">Computer Science Engineer · ML · Quantum · Unity</div>
+  </div>
+
+  <nav class="main-nav" aria-label="Primary">
+    <ul>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="expertise.html">Expertise</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="header-actions">
+    <a class="btn btn-ghost" href="assets/CV.pdf" download>Download CV</a>
+    <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<main class="hero-wrap">
+  <section class="hero container">
+
+    <!-- Left: minimal text -->
+    <div class="hero-left" data-animate="stagger">
+      <div class="intro small" data-animate="fade-up">Hi — I’m</div>
+
+      <h1 class="hero-name" data-animate="fade-up">
+        <span id="typewriter-name" class="typewriter"></span>
+        <span class="cursor">|</span>
+      </h1>
+
+      <p class="hero-sub" data-animate="fade-up">
+        I build Machine Learning models, quantum computing systems and interactive experiences — with production-ready engineering.
+      </p>
+
+      <blockquote class="hero-quote" data-animate="fade-up">
+        “Building systems that blend intelligence, creativity & precision.”
+      </blockquote>
+
+      <div class="hero-ctas" data-animate="fade-up">
+        <a href="projects.html" class="btn btn-primary tilt">My Work</a>
+        <a href="contact.html" class="btn btn-outline tilt">Hire me</a>
+      </div>
+
+      <div class="hero-meta" data-animate="fade-up">
+        <span class="meta-pill">Top 1% MHT CET in Maharashtra</span>
+        <span class="meta-pill">Research Published — IJCRT</span>
+      </div>
+    </div>
+
+    <!-- Right: square rounded photo with layered effect -->
+    <aside class="hero-right" data-animate="fade-left">
+      <div class="photo-frame tilt">
+        <img src="assets/Your-Photo2.png" alt="Sourabh Chaugule" class="profile-square" />
+        <div class="photo-accent"></div>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<!-- Modal -->
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-content" role="dialog" aria-modal="true">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> 

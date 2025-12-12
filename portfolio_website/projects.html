@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Sourabh Chaugule</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="brand"><a href="index.html" class="logo"><span class="mono">Sourabh</span> <span class="accent">Chaugule</span></a></div>
+  <nav class="main-nav" aria-label="Primary">
+    <ul>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="expertise.html">Expertise</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <div class="header-actions">
+    <a class="btn btn-ghost" href="assets/CV.pdf" download>Download CV</a>
+    <button id="themeToggleProjects" class="icon-btn">🌙</button>
+  </div>
+</header>
+
+<main class="container" style="padding-top:140px;">
+  <h1 class="page-title" data-animate="fade-up">Projects</h1>
+
+  <section class="project-grid" data-animate="fade-up" style="margin-top:18px;display:grid;gap:20px;">
+    <!-- Project 1 -->
+    <article id="p1" class="project card">
+      <div class="project-meta">
+        <h2>GSE Calculator — Variational Quantum Eigensolver</h2>
+        <p class="muted">Python · Cirq · VQE · Quantum Simulation</p>
+        <p>Designed and implemented a quantum-computing based model to calculate the Ground State Energy of molecules using VQE.</p>
+        <br>
+        <div class="project-links">
+          <a class="btn btn-outline" href="https://github.com/sourabhchaugule/Cirq" target="_blank" rel="noopener">Repository</a>
+        </div>
+      </div>
+      <div class="project-screenshot">
+        <img src="assets/project1.png" alt="GSE Calculator screenshot" onerror="this.style.display='none'"/>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article id="p2" class="project card">
+      <div class="project-meta">
+        <h2>Scholar Graph — ML-driven Knowledge Graph</h2>
+        <p class="muted">Python · NLTK · Knowledge Graph Construction</p>
+        <p>ML-driven knowledge-graph generation to extract concepts and relationships from academic text.</p> 
+        <br>
+        <div class="project-links">
+          <a class="btn btn-outline" href="https://github.com/sourabhchaugule/Project_ScholarGraph" target="_blank" rel="noopener">Repository</a>
+        </div>
+      </div>
+      <div class="project-screenshot">
+        <img src="assets/project2.png" alt="Scholar Graph screenshot" onerror="this.style.display='none'"/>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project card">
+      <div class="project-meta">
+        <h2>QML AND Classical ML</h2>
+        <p class="muted">Python · Cirq · ML</p>
+        <p>Stock Volitality prediction using both Classical and Quantum Machine Learning Model.</p> 
+        <br>
+        <div class="project-links"><a class="btn btn-outline" href="https://github.com/sourabhchaugule/Cirq/tree/QML" target="_blank">Repository</a></div>
+      </div>
+      <div class="project-screenshot">
+        <img src="assets/project3.png" alt="Emotion Detector screenshot" onerror="this.style.display='none'"/>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container">© <span id="yearProjects"></span> Sourabh Y. Chaugule</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
